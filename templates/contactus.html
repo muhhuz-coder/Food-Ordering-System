@@ -1,0 +1,49 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<div class="contact_us_container">
+    <h1 class="contact_us_heading">Contact Us</h1>
+    <img src="{{ url_for('static', filename = 'assets/img/over.png' )}}" alt="Cant find image." class="menuimg">
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4 my-5">
+    <div class="col">
+      <div class="card contactuscard" style="margin-left: 70px;">
+        <img src="{{ url_for('static', filename = 'assets/img/female.jpg' )}}" class="card-img-top contactusimg" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" style="text-align: center;">Alishba Khalid</h5>
+          <p class="card-text" style="text-align: center;">Frontend Developer - FAST NUCES</p>
+          <a href="https://www.linkedin.com/in/alishba-khalid-878980235/">
+            <button class="btn btn-secondary btn_contact_us" >View Profile</button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card contactuscard" style="margin-left: 70px;">
+        <img src="{{ url_for('static', filename = 'assets/img/male.jpg' )}}" class="card-img-top contactusimg" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" style="text-align: center;">Muhammad Huzaifa</h5>
+          <p class="card-text" style="text-align: center;">Backend Developer - FAST NUCES</p>
+          <a href="https://www.linkedin.com/in/muhhuz/">
+            <button class="btn btn-secondary btn_contact_us" >View Profile</button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card contactuscard" style="margin-left: 70px;">
+        <img src="{{ url_for('static', filename = 'assets/img/female.jpg' )}}" class="card-img-top contactusimg" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" style="text-align: center;">Fatima Ashraf</h5>
+          <p class="card-text" style="text-align: center;">Data Enthusiast - FAST NUCES</p>
+          <a href="https://www.linkedin.com/in/fatima-ashraf-40b897285/">
+            <button class="btn btn-secondary btn_contact_us" >View Profile</button>
+          </a>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+{% endblock %}

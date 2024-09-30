@@ -1,0 +1,1343 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.btn{
+    border-radius: 1.25rem;
+    border-style: double;
+    font-family: 'Abril Fatface', cursive;
+}
+.btn-secondary:hover {
+    background-color: palevioletred;
+    border-color: pink;  
+    color: white;  
+  }
+  .btn-dark:hover {
+    background-color: palevioletred;
+    border-color: pink;  /* Adjust border color if needed */
+    color: white;  /* Adjust text color for better contrast */
+  }
+
+.orderbtn:hover{
+    color:palevioletred;
+    background-color: whitesmoke;
+}
+
+.orderbtn{
+    color:palevioletred;
+    background-color: white;
+}
+
+.schedulebtn:hover{
+    color: palevioletred;
+    background-color: whitesmoke;
+}
+
+.schedulebtn{
+    color: palevioletred;
+    background-color: white;
+}
+
+.logotext{
+    font-size: 1.5rem;
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.n_list{
+    /* display:inline; */
+    margin: 0.125rem 2.625rem;
+}
+
+.navbar{
+    position: sticky;
+    width: 100%;
+}
+
+.container{
+    width: 110vw;
+    height: 130vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuclass{
+    margin: 2% 5% 18% 12%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* width: 100%; */
+}
+
+#navbarNav ul li a:hover{
+    color:pink;
+}
+
+#logoid:hover{
+    color:pink;
+}
+
+#video_ins{
+    padding: 0rem 0rem;
+    margin: 0rem 0rem;
+    background: linear-gradient(
+        180deg, #1d1d23 0%, rgba(0,0,0,0.38) 100%);;
+}
+
+video{
+    /* min-width: 50vw;
+    min-height: 100vh; */
+    height: 100%;
+    width: 100%;
+}
+
+.overlay{
+    position: absolute;
+    top: 10rem;
+    left: 30rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;  */
+}
+
+.overlay2{
+    position: absolute;
+    top: 22rem;
+    left: 15rem;
+}
+
+#front_img{
+    height: 4rem;
+    width: 20rem;
+}
+
+.Paraclass{
+    color: pink;
+    font-size: 1.3rem;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+}
+
+.heading_class{
+    color: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 0.25rem;
+}
+
+.cart{
+    height: 3.5rem;
+    width: 3.5rem;
+    filter: invert(1);
+}
+
+.heading_class2{
+    color: white;
+    display: inline;
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 0.25rem;
+}
+
+.frontpg{
+    height: 31.25rem;
+    width: 31.25rem;
+}
+
+/* .promotions{
+    background-image: url("bg.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
+
+.featurette-heading{
+    color: palevioletred;
+    margin: auto;
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin-top: 0rem;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.lead{
+    color: grey;
+    font-size: 1.4rem;
+    margin: 0.125rem 0.125rem;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.features_heading{
+    color: palevioletred;
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin: 0rem 22.5rem 0rem 22.5rem;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.btn-dark:hover{
+    background-color:whitesmoke;
+    color: palevioletred;
+}
+
+
+.end{
+    /* background-color: black; */
+    background-image: url('bg.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.foot{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+/* #premenu::before{
+    content: "";
+    background: url("menu2.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    height: 145%;
+    width: 100%;
+    z-index: -1;  
+    opacity: 0.9;
+    top:0%;
+    left:0%;
+} */
+
+#premenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    border-color: black;
+    border-radius: 0.938rem;
+    border-top-left-radius: 0.938rem;
+    border-top-right-radius: 0.938rem;
+    border-style: double;
+}
+
+.card img{
+    border-radius: 0.938rem;
+    border-bottom-right-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+}
+
+.frontpg{
+    width: 21.875rem;
+    height: 21.875rem;
+}
+
+#about_us{
+    margin: 5rem 2.5rem;
+    position: absolute;
+}
+
+.About_us_pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    width: 7rem;
+    position: relative;
+    top: 2%;
+    left: 55%;
+}
+
+.about_us_heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: palevioletred;
+    font-size: 2.8rem;
+    font-weight: bold;
+    position: relative;
+    top: 2%;
+    left: 9%;
+    bottom: 3%;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.inside_about{
+    position: relative;
+    top: 3%;
+    left: 72%;
+    height: 33.75rem;
+    width: 28.875rem;
+}
+
+
+
+#about_us{
+    position: relative;
+    /* background-color: white; */
+}
+
+.abt_us{
+    position: absolute;
+    top: 29%;
+    left: 0%;
+    /* position: static; */
+    height: 75%;
+    width: 60%;
+    /* border: 2px solid red; */
+    color: gray;
+    font-size: 1.4rem;
+    font-family: 'Abril Fatface', cursive;
+    /* font-family: 'Architects Daughter', cursive; */
+    /* background-image: url("abtbg.webp"); */
+    /* background-color: orange; */
+    /* background-image: url("try.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 200%; */
+    margin: 0rem 0rem 0rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
+}
+
+.footer_heading{
+    color:palevioletred;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.footer_txt{
+    color: white;
+    /* font-weight: bold; */
+    text-decoration: none;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.copyrightfooter{
+    color: white;
+    margin: 0rem 0rem 0rem 36rem;
+    /* font-family: 'Abril Fatface', cursive; */
+}
+
+.footer_txt:hover{
+    color: gray;
+    font-weight:lighter;
+}
+
+.facebookbtn{
+    background-color: blue;
+    margin: -4rem 0rem 0rem 40rem;
+}
+
+.instagrambtn{
+    background-color: rgb(190, 148, 70);
+    margin: -4rem 0rem 0rem 0rem;
+}
+
+.twitterbtn{
+    background-color: lightblue;
+    margin: -4rem 0rem 0rem 0rem;
+}
+
+.submitbtn{
+    background-color: palevioletred;
+    color: black;
+}
+
+.submitbtn:hover{
+    background-color: white;
+    color: black;
+}
+
+.delicacies_img{
+    background-image: linear-gradient(
+180deg, #1d1d23 0%, rgba(0,0,0,0.38) 100%);
+    opacity: 0.8;
+    background-image: url('bg.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 85%;
+    height: 100%;
+    position: absolute;
+}
+
+.deli_heading{
+    color: palevioletred;
+    display: inline;
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: 'Abril Fatface', cursive;
+    position: relative;
+    top: 15%;
+    left: 10%;
+    text-align: center;
+}
+
+.deli_para{
+    font-size: 3.2rem;
+    color: burlywood;
+    font-family: 'Abril Fatface', cursive;
+    position: relative;
+    top: 25%;
+    left: 0%;
+    text-align: center;
+}
+
+.del_img{
+    position: relative;
+    top: 25%;
+    left: 32%;
+    height: 8%;
+    width: 35%;
+    /* background-color: rgb(71, 69, 69);
+    background: linear-gradient(
+        180deg, #1d1d23 0%, rgba(0,0,0,0.38) 100%);;
+    border-radius: 13px; */
+}
+
+.cardheading{
+    color: palevioletred;
+    text-align: center;
+    text-decoration: wavy;
+    font-size: 2rem;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.card-text{
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.menubtn{
+    color: black;
+    font-size: 0.9rem;
+    margin-left: -30px;
+    width: 8rem;
+}
+
+.menubtn:hover{
+    background-color: palevioletred;
+    color: white;
+    outline: palevioletred;
+    font-size: 0.95rem;
+}
+
+/* login.css */
+.loginimg{
+    position: absolute;
+    /* margin: 9rem 0rem 0rem 15rem; */
+    margin: 8rem 0rem 0rem 35rem;
+}
+
+.login{
+    position: relative;
+    margin: 2rem 0rem 0rem 0rem;
+    height: 12rem;
+    width: 12rem;
+}
+
+.form-signin{
+    height: 35rem;
+    width: 25rem;
+    /* margin: 2rem 0rem 0rem 54rem; */
+    margin: 0rem 0rem 0rem 4rem;
+}
+
+.logincontainer{
+    /* border-radius: 5rem; */
+    background-color: pink;
+    /* border: 2px solid red; */
+    height: 40rem;
+    width: 55rem;
+    margin: 1rem 0rem 1rem 15rem;
+    border: 1px solid black;
+    box-shadow: 5px 10px 18px;
+}
+
+.text-center{
+    background-color: rgb(253, 245, 238);
+    /* background-color: beige; */
+    /* font-family: 'Abril Fatface', cursive; */
+}
+
+.login_to_signup{
+    text-decoration: none;
+    color: palevioletred;
+    font-weight: bold;
+}
+
+.login_to_signup:hover{
+    color: black;
+    text-decoration: double;
+    text-decoration: underline;
+}
+
+/* Signup */
+.signupimg{
+    position: absolute;
+    /* margin: 9rem 0rem 0rem 15rem; */
+    margin: 15rem 0rem 0rem 35rem;
+}
+
+.signupcontainer{
+    background-color: pink;
+    height: 50rem;
+    width: 55rem;
+    margin: 1rem 10rem 10rem 15rem;
+    border: 2px solid gray;
+    box-shadow: 10px 10px 18px;
+}
+
+.dropdown{
+    margin: 0rem 0rem 0rem -9rem;
+}
+
+.premium_in_signup{
+    margin: 0rem 0rem 0rem -9rem;
+    font:caption;
+}
+
+.checkbox{
+    margin: 2rem 0rem 0rem -8rem;
+}
+
+/* Italian + restaurants */
+.menuoption{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-column-gap: 1rem;
+    padding: 2rem;
+    /* grid-template-rows: 1fr 1fr; */
+}
+
+.menuheading{
+    /* font-family: 'Abril Fatface', cursive; */
+    font-family: 'Satisfy', cursive;
+    color: palevioletred;
+    text-decoration: underline;
+    font-size: 5rem;
+}
+
+.menuheadingdiv{
+    height: 7rem;
+    width: 20rem;
+    margin: 0rem 0rem 0rem 41rem;
+}
+
+.menuimg{
+    position: relative;
+    height: 2rem;
+    width: 19rem;
+    margin: -0.5rem 0rem 0rem -2rem;
+}
+
+.imghover {
+    position: relative;
+}
+  
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 15rem;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-top-right-radius: 0rem;
+}
+  
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+.imghover:hover .image {
+    opacity: 0.3;
+}
+  
+.imghover:hover .middle {
+    opacity: 1;
+}
+
+.cart_on_hover{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.card{
+    border: 0.05rem solid rgb(214, 211, 211);
+    border-radius: 0rem;
+}
+
+/* Restaurant italian */
+.restaurant_heading_div{
+    height: 19rem;
+    width: 95rem;
+    margin: 0rem 0rem 0rem 0rem;
+    /* border: 2px solid red; */
+}
+
+.restaurant_img{
+    position: absolute;
+    height: 10rem;
+    width: 11rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 14%;
+    left: 45%;
+}
+
+.restaurant_heading{
+    font-family: 'Satisfy', cursive;
+    color: palevioletred;
+    text-decoration: underline;
+    font-size: 4rem;
+    display: inline;
+    position: relative;
+    top: 13rem;
+    left: 22rem;
+}
+
+.go_back{
+    height: 4rem;
+    width: 5rem;
+    margin: 0rem 0rem 0rem -1rem;
+}
+
+.checked{
+    color: orange;
+}
+
+.fa-star-half-full{
+    color: palevioletred;
+}
+
+.gap_card{
+    padding-right: 20px;
+}
+
+/* Bill */
+.billing{
+    /* margin: 2rem 35rem; */
+    padding: 2rem 0rem 0rem 0rem;
+    /* background-color: black; */
+}
+
+.table{
+    height: auto;
+    width: 70rem;
+}
+
+.carttext{
+    color: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.9rem;
+    /* font-weight: bold; */
+    font-family: 'Abril Fatface', cursive;
+}
+
+.shopping{
+    margin: 1.5rem 0rem 0rem 0rem;
+    height: 2rem;
+    width: 12rem;
+    border-radius: 10rem;
+    border-style: double;
+    border-color: black;
+}
+
+.checkout{
+    margin: 1.5rem 0rem 0rem 2rem;
+    height: 2.2rem;
+    width: 12rem;
+    border-radius: 10rem;
+    border-style: double;
+    border-color: black;
+}
+
+/* checkout */
+.checkout_container{
+    padding: 1.5rem 0rem 0rem 25rem;
+    width: 100vw;
+    height: 55rem;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card */
+.card_container{
+    margin: 0rem 0rem 0rem 23rem;
+    padding: 1.5rem 0rem 0rem 6rem;
+    width: 50rem;
+    height: 35rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardbtn{
+    height: 2rem;
+    width: 10rem;
+    border-radius: 10rem;
+    border-style: double;
+    border-color: black;
+}
+
+.visa{
+    height: 2rem;
+    width: 5rem;
+    margin: -9.5rem 0rem 0rem 25rem;
+}
+
+.master{
+    height: 3rem;
+    width: 5rem;
+    margin: -12.5rem 0rem 0rem 31rem;
+}
+
+.paypal{
+    height: 5rem;
+    width: 5rem;
+    margin: -15.5rem 0rem 0rem 37rem;
+}
+
+.rider{
+    width: 20rem;
+    height: 16rem;
+    margin: 12rem 0rem 0rem -3rem;
+}
+
+.registerbox{
+    /* border-radius: 5rem; */
+    background-color: white;
+    /* border: 2px solid red; */
+    height: 55rem;
+    width: 55rem;
+    margin: 1rem 0rem 1rem 14rem;
+    border: 1px solid black;
+    box-shadow: 5px 10px 18px;
+}
+
+#terms_conditions{
+    text-align: center;
+}
+
+@keyframes loader {
+    0% {
+      width: 10%;
+      transform: rotate(0deg);
+    }
+    10% {
+      left: 0%;
+      transform: rotate(0deg);
+    }
+    20% {
+      width: 0%;
+      left: 20%;
+    }
+    30% {
+      width: 25%;
+    }
+    50% {
+      left: 15%;
+      width: 35%;
+    }
+    70% {
+      width: 30%;
+      left: 18%;
+      transform: rotate(240deg);
+    }
+    90% {
+      width: 30%;
+      left: 10%;
+    }
+    100% {
+      width: 2%;
+      left: 25%;
+      transform: rotate(360deg);
+    }
+}
+@keyframes pan {
+    0% {
+      transform: rotate(0deg);
+      transform-origin: top right;
+    }
+    10% {
+      transform: rotate(-2deg);
+      transform-origin: top right;
+    }
+    50% {
+      transform: rotate(15deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+}
+@keyframes shadow {
+    0% {
+      width: 30%;
+    }
+    50% {
+      width: 40%;
+      left: 20px;
+    }
+    100% {
+      width: 30%;
+    }
+  }
+  .pan-loader {
+    width: 180px;
+    height: 180px;
+    margin: 100px auto;
+  }
+  .pan-loader .loader {
+    position: relative;
+    top: 10%;
+    left: 0;
+    z-index: -1;
+    width: 60%;
+    height: 45%;
+    border: 10px solid transparent;
+    border-bottom: 10px solid palevioletred;
+    border-radius: 50%;
+    animation: loader 2s infinite;
+    animation-timing-function: linear;
+  }
+  .pan-loader .pan-container {
+    display: flex;
+    width: 80%;
+    animation: pan 2s infinite;
+  }
+  .pan-loader .pan {
+    width: 60%;
+    height: 20px;
+    background: linear-gradient(#0f0f0f, #030303);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .pan-loader .handle {
+    width: 40%;
+    height: 10px;
+    background: linear-gradient(#030303, #0a0a0a);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .pan-loader .shadow {
+    position: relative;
+    top: 15%;
+    left: 15%;
+    width: 30%;
+    height: 8px;
+    background: lightgray;
+    border-radius: 20px;
+    animation: shadow 2s infinite;
+}
+
+.gif{
+    margin: -4rem 0rem 0rem 0rem;
+}
+
+.preparing{
+    margin: -6rem 0rem 10rem 0rem;
+}
+
+.preparing_food{
+    color: maroon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.9rem;
+    /* font-weight: bold; */
+    font-family: 'Abril Fatface', cursive;
+}
+
+.details{
+    margin: -5rem 0rem 0rem 14rem;
+}
+
+.trackbtn{
+    margin: 0rem 0rem 0rem 55rem;
+    width: 15rem;
+    border-radius: 10rem;
+}
+
+.trackbtn:hover{
+    font-size: 1.1rem;
+}
+
+/* Tracking */
+.bike{
+    margin: 2rem 0rem 0rem 32rem;
+    /* transform: translateX(-50%); */
+    /* position: absolute; */
+    /* z-index: 2; */
+}
+
+.bike img{
+    animation: bike 4s linear infinite;
+}
+
+@keyframes bike{
+    100%{
+        transform: translateX(14rem);
+    }
+    50%{
+        transform: translateX(7rem);
+    }
+    0%{
+        transform: translateX(1rem);
+    }
+}
+
+.delivering{
+    margin: 0rem 0rem 0rem 0rem;
+}
+
+.rider_details{
+    margin: 0rem 0rem 0rem 12rem;
+}
+
+.rider_details2{
+    margin: -12rem 0rem 0rem 12rem;
+    height: 20rem;
+}
+
+.Rider{
+    color: maroon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.9rem;
+    /* font-weight: bold; */
+    font-family: 'Abril Fatface', cursive;
+}
+
+.estimated_time{
+    margin: 0rem 0rem 0rem 42rem;
+}
+
+/* Contact us */
+.about_us_container{
+    height: 20rem;
+    width: 20rem;
+    margin: 0rem 0rem 0rem 41rem;
+}
+
+.contact_us_heading{
+    margin: 1rem 1rem 2rem -2rem;
+    font-family: 'Abril Fatface', cursive;
+    color: palevioletred;
+    text-decoration:underline;
+    font-size: 3.5rem;
+}
+
+.aboutpara{
+    margin: 1rem 0rem 0rem -15rem;
+    width: 50rem;
+}
+
+.contact_us_container{
+    height: 7rem;
+    width: 20rem;
+    margin: 5rem 0rem 0rem 39rem;
+}
+
+.contact_us_img{
+    margin: 0rem 0rem 1rem 0rem;
+    height: 60rem;
+    width: 10rem;
+}
+
+.contactusimg{
+    height: 20rem;
+    width: 25rem;
+}
+
+.contactuscard{
+    width: 25rem;
+}
+
+.btn_contact_us{
+    margin-left: 125px;
+    text-align: center;
+}
+
+/* Premium */
+.premiumimg{
+    height: 2rem;
+    width: 2rem;
+}
+
+.premheading{
+    color: maroon;
+    text-align: left;
+    font-size: 1.9rem;
+    /* font-weight: bold; */
+    font-family: 'Abril Fatface', cursive;
+}
+
+.premium_types{
+    color: black;
+    display: flex;
+    font-size: 1.2rem;
+    /* font-family: 'Abril Fatface', cursive; */
+}
+
+.premiumoptions{
+    align-items: left;
+    margin: 0rem 0rem 0rem -12rem;
+}
+
+.premiumcontainer{
+    background-color: white;
+    height: 60rem;
+    width: 55rem;
+    margin: 1rem 0rem 1rem 25rem;
+    border: 1px solid black;
+    box-shadow: 5px 10px 18px;
+}
+
+/* Future Scheduling */
+.futureHeading{
+    margin: 1rem 0rem 0rem 0rem;
+    font-family: 'Satisfy', cursive;
+    color: palevioletred;
+    text-decoration: underline;
+    font-size: 2.5rem;
+}
+
+.dateselect{
+    font-family: 'Satisfy', cursive;
+    color: black;
+    font-size: 1.5rem;
+    margin: 3rem 0rem 2rem 30rem;
+}
+
+.futurebtn{
+    margin: 0rem 0rem 0rem 1rem;
+    height: 2rem;
+    padding: 0rem 0.3rem 0rem 0.3rem;
+}
+
+/* PreTracking */
+.container_tracking{
+    height: 10rem;
+}
+
+.trackbtn{
+    margin: 0.5rem 0rem 0rem 20rem;
+    width: 40rem;
+}
+
+/* Ratings management */
+
+
+/* Admin */
+.adminpic{
+    margin: 0rem 0rem 0rem -4rem;
+}
+
+/* Admin Functions */
+.adminfunctions{
+    height: 50rem;
+    padding: -5rem 0rem 0rem 0rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.marginn{
+    margin-left: 85px;
+}
+
+.heading_3{
+    font-family: 'Satisfy', cursive;
+    color: black;
+    font-size: 2rem;
+    margin: 2rem 0rem 2rem 4rem
+}
+
+.restaurant_reg{
+    width: 16rem;
+    height: 16rem;
+    margin: 6rem 0rem 0rem 0rem;
+}
+
+.choose_category{
+    color: maroon;
+    font-family: 'Roboto Slab', serif;
+    margin: 2rem 0rem 0rem -5rem;
+}
+
+.register_restaurant_box{
+    /* border-radius: 5rem; */
+    background-color: white;
+    /* border: 2px solid red; */
+    height: 50rem;
+    width: 55rem;
+    margin: 1rem 0rem 1rem 15rem;
+    border: 1px solid black;
+    box-shadow: 5px 10px 18px;
+}
+
+.customizationbtn{ /*in cart*/
+    margin: 1.5rem 0rem 0rem 20rem;
+    height: 2rem;
+    width: 12rem;
+    border-radius: 10rem;
+    border-style: double;
+    border-color: black;
+}
+
+/* Customization */
+.customizationbtn{ /*in cart*/
+    margin: 1.5rem 0rem 0rem 25rem;
+    height: 2rem;
+    width: 12rem;
+    border-radius: 10rem;
+    border-style: double;
+    border-color: black;
+}
+
+.checkout_in_customization{
+    margin: rem 0rem 0rem 25rem;
+    height: 2rem;
+    width: 12rem;
+    border-radius: 10rem;
+    border-style: double;
+    border-color: black;
+}
+
+.choose_customization{
+    color: maroon;
+    font-family: 'Roboto Slab', serif;
+    margin: 0rem 0rem 0rem 38rem;
+}
+
+.options{
+    color: maroon;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Review */
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+    
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  .rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+.review_img{
+    margin: 0rem 0rem 1rem 27rem;
+    height: 20rem;
+}
+
+.review_container{
+    height: 53rem;
+}
+
+.reviewbtn{
+    margin: 1rem 0rem 0rem 30rem;
+    width: 30rem;
+}
+
+/* Review_management */
+.heading {
+    font-size: 25px;
+    margin-right: 25px;
+  }
+  
+  .fa {
+    font-size: 25px;
+  }
+  
+  .checked {
+    color: palevioletred;
+  }
+  
+  .middle {
+    float: left;
+    width: 70%;
+    margin-top: 10px;
+  }
+  
+  .right {
+    text-align: right;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+  }
+  
+  .bar-5 {width: 60%; height: 18px; background-color: #04AA6D;}
+  .bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+  .bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+  .bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+  .bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+  
+  @media (max-width: 400px) {
+    .side, .middle2 {
+      width: 100%;
+    }
+    .right {
+      display: none;
+    }
+  }
+
+  .view_rating_heading{
+    font-family: 'Abril Fatface', cursive;
+    height: 7rem;
+    width: 30rem;
+    margin: 0rem 0rem 0rem 28rem;
+  }
+
+  .ratings_icon{
+    position: relative;
+    height: 2rem;
+    width: 22rem;
+    margin: -0.5rem 0rem 0rem 2.5rem;
+  }
+
+  .view_review_btn{
+    margin: 4rem 0rem 0rem 20rem;
+    width: 30rem;
+  }
+  .btn-pink {
+    background-color: palevioletred;
+    border-color: pink; 
+    color: white; 
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .view_review_container{
+      height: 75rem;
+  }
+
+  .view_heading{
+    color: palevioletred;
+    font-size: 2.5rem;
+    /* font-weight: bold; */
+    font-family: 'Abril Fatface', cursive;
+    text-align: left;
+  }
+  
